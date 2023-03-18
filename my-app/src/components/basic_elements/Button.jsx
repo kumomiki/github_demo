@@ -1,7 +1,5 @@
-import style from '../basic_elements/Button.module.scss'
 
-export const Button = () => {
-  return (
-    <button className={style.button}> 推文 </button>
-  )
+
+export const Button = ({title, className}) => {
+  return <button className={className}> {title} </button>;
 }

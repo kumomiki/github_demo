@@ -1,0 +1,36 @@
+.buttonContainer{
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+
+.buttonOrange{
+  margin: 5px 0;
+  background-color: #FF6600;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 30px;
+  color: white;
+
+  &:hover{
+    border: 3px solid white;
+  }
+}
+.buttonWhite{
+  margin: 5px 0;
+  background-color: #fff;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 30px;
+  color: #FF6600;
+
+  &:hover{
+    border: 3px solid #FF6600;
+  }
+}
+
+}
+
